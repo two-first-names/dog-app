@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <title>Dog App!</title>
+  </head>
+  <body>
+    <h1>Welcome to the Dog App!</h1>
+    <h2>Register a dog</h2>
+
+    <form action="/new-dog" method="POST">
+      <div>
+        <label for="name">What is your name?</label>
+        <input name="name" id="name" />
+      </div>
+      <div>
+        <label for="dogname">What is the dog's name?</label>
+        <input name="dogname" id="dogname" />
+      </div>
+      <div>
+        <label for="age">How old is the dog?</label>
+        <input name="age" id="age" />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+
+    <h2>Find a Dog.</h2>
+
+    <form action="/get-dog" method="GET">
+      <div>
+        <label for="name">What is your name?</label>
+        <input name="name" id="name" />
+      </div>
+      <div>
+        <label for="dogname">What is the dog's name?</label>
+        <input name="dogname" id="dogname" />
+      </div>
+      <div>
+        <label for="age">How old is the dog?</label>
+        <input name="age" id="age" />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
